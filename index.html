@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <title>Task 6</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm fixed-top px-2">
+            <div class="container-fluid">
+                <h1 class="title text-uppercase m-0">
+                    <span class="t-span1 fw-bold">book</span><span class="fw-light">saw</span>
+                </h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fs-6"></span>
+                    <span class="fs-6">Menu</span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link n-link active" aria-current="page" href="#" style="color:#aa8151;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link n-link" href="#">Featured</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link n-link" href="#">Popular</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero min-vh-100">
+            <div id="carouselExample" class="carousel slide h-100">
+                <div class="carousel-inner h-100 bg-body-tertiary">
+                    <div class="carousel-item h-100 active">
+                        <div
+                            class="container w-75 d-flex justify-content-center align-items-center flex-wrap flex-row-reverse gx-5">
+                            <div class="hero-div1 d-flex justify-content-center align-items-center">
+                                <img class="h-75" src="./assets/images/main-banner1.jpg" alt="Book cover" />
+                            </div>
+                            <div
+                                class=" h-auto col-12 col-md-4 d-flex justify-content-center align-items-center flex-column">
+                                <div class="hero-text">
+                                    <h2 class="title-2 text-capitalize">life of the wild</h2>
+                                    <p class="text-secondary">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Est ipsam aut veritatis mollitia praesentium commodi nisi
+                                        earum tenetur consequuntur natus illum aliquam, odio odit
+                                        minus provident impedit? Eum, asperiores iure.
+                                    </p>
+                                </div>
+                                <button class="read-more bg-body-tertiary text-uppercase align-self-start mb-5">
+                                    read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div
+                            class="container w-75 d-flex justify-content-center align-items-center flex-wrap flex-row-reverse gx-5">
+                            <div class="hero-div1 d-flex justify-content-center align-items-center">
+                                <img class="h-75" src="./assets/images/main-banner2.jpg" alt="Book cover" />
+                            </div>
+                            <div
+                                class=" h-auto col-12 col-md-4 d-flex justify-content-center align-items-center flex-column">
+                                <div class="hero-text">
+                                    <h2 class="title-2 text-capitalize">birds gonna be happy</h2>
+                                    <p class="text-secondary">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Est ipsam aut veritatis mollitia praesentium commodi nisi
+                                        earum tenetur consequuntur natus illum aliquam, odio odit
+                                        minus provident impedit? Eum, asperiores iure.
+                                    </p>
+                                </div>
+                                <button class="read-more bg-body-tertiary text-uppercase align-self-start mb-5">
+                                    read more <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <div class="p-2 rounded-circle d-flex justify-content-center align-items-center border">
+                        <i class="fa fa-long-arrow-left text-secondary" aria-hidden="true"></i>
+                    </div>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <div class="p-2 rounded-circle d-flex justify-content-center align-items-center border">
+                        <i class="fa fa-long-arrow-right text-secondary" aria-hidden="true"></i>
+                    </div>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="d-flex justify-content-center align-items-center bg-body-secondary p-4 py-5">
+            <div class="container w-75 row justify-content-center align-items-center p-0 m-0 gap-3">
+                <div class="client-img col-6 col-md-2">
+                    <img class="img-fluid w-100" src="./assets/images/client-image1.png" alt="">
+                </div>
+                <div class="client-img col-6 col-md-2">
+                    <img class="img-fluid w-100" src="./assets/images/client-image2.png" alt="">
+                </div>
+                <div class="client-img col-6 col-md-2">
+                    <img class="img-fluid w-100" src="./assets/images/client-image3.png" alt="">
+                </div>
+                <div class="client-img col-6 col-md-2">
+                    <img class="img-fluid w-100" src="./assets/images/client-image4.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="d-flex justify-content-center align-items-center w-100 p-4">
+            <div class="w-auto d-flex justify-content-center align-items-center flex-column p-4 gap-3">
+                <div>
+                    <p class="text-uppercase text-secondary text-center pt-3" style="font-size: 11px;">
+                        some quality items
+                    </p>
+                    <h2 class="title-2 title-effect position-relative text-capitalize fs-1">
+                        featured books
+                    </h2>
+                </div>
+                <div class="container w-100 d-flex flex-column align-items-center">
+                    <div class="container row w-100 justify-content-around align-items-center" id="card-container">
+                        <!-- items will be added here -->
+                    </div>
+                    <p class="align-self-end me-3 fw-bold text-capitalize">view all products <i
+                            class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-body-tertiary p-4 py-5 d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center gap-4">
+                <div class="container row w-75 gap-4" id="best-selling">
+                    <!-- items will be added here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="d-flex justify-content-center align-items-center w-100 p-4">
+            <div class="w-auto d-flex justify-content-center align-items-center flex-column p-4 gap-3">
+                <div>
+                    <p class="text-uppercase text-secondary text-center pt-3" style="font-size: 11px;">
+                        some quality items
+                    </p>
+                    <h2 class="title-2 title-effect position-relative text-capitalize fs-1">
+                        popular books
+                    </h2>
+                </div>
+                <div class="container w-100 d-flex flex-column align-items-center">
+                    <div class="container row w-100 justify-content-around align-items-center" id="card-container2">
+                        <!-- items will be added here -->
+                    </div>
+                    <p class="align-self-end me-3 fw-bold text-capitalize">view all products <i
+                            class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-body-tertiary p-4 py-5 d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center gap-4">
+                <div class="container row w-75 gap-4">
+                    <div class="col-12 col-md-5 p-2">
+                        <h3 class="text-capitalize title-2" style="font-size: 50px;">subscribe to <span
+                                class="one-word-effect position-relative">our</span> newsletter</h3>
+                    </div>
+
+                    <div class="col-12 col-md-5 d-flex justify-content-between flex-column">
+                        <p class="mb-3 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                            omnis officia velit fuga.
+                            Ullam dolore quaerat adipisci aut odit animi
+                        </p>
+                        <div class="mb-3 border-bottom pb-3">
+                            <input type="email" class="w-75 border-0 bg-body-tertiary" id="exampleFormControlInput1"
+                                placeholder="Enter your email" style="outline: none !important;">
+                            <button class="fs-6 fw-bold border-0 bg-body-tertiary">send <i class="fa fa-paper-plane"
+                                    aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="pt-5 position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="row border-bottom">
+                    <div class="card col-12 col-lg-3 mx-auto border-0 pe-5 me-5 ">
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h4 class="title text-uppercase m-0 mt-5 pt-1 fs-1">
+                                <span class="t-span1 fw-bold">book</span><span class="fw-light">saw</span>
+                            </h4>
+                            <p class="text-center pt-5 mt-4 text-secondary">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Minima, iure est deserunt earum nulla inventore consequatur debitis ea
+                                sed soluta quo cumque odio molestias .</p>
+                        </div>
+                    </div>
+                    <ul class=" col-12 col-lg-2 mx-auto  list-group col-2 border-0 ">
+                        <li class="list-group-item border-0 text-center">
+                            <h4 class="my-5 pt-3" style="font-family: 'Playfair', serif;">About Us</h4>
+                        </li>
+                        <li class="list-group-item border-0 text-center "><a href="#"
+                                class="text-decoration-none text-dark">vision</a>
+                        </li>
+                        <li class="list-group-item border-0 text-center "><a href="#"
+                                class="text-decoration-none text-dark">articles</a>
+                        </li>
+                        <li class="list-group-item border-0 text-center "><a href="#"
+                                class="text-decoration-none text-dark">careers</a>
+                        </li>
+                        <li class="list-group-item border-0 text-center "><a href="#"
+                                class="text-decoration-none text-dark">service terms</a></li>
+                        <li class="list-group-item border-0 text-center "><a href="#"
+                                class="text-decoration-none text-dark">donate</a>
+                        </li>
+                    </ul>
+                    <ul class="col-12 col-lg-2 mx-auto  list-group col-2 bg-baby-green border-0">
+                        <li class="list-group-item border-0 text-center ">
+                            <h4 class="my-5 pt-3" style="font-family: 'Playfair', serif;">Discover</h4>
+                        </li>
+                        <li class="list-group-item border-0 text-center ">Home</li>
+                        <li class="list-group-item border-0 text-center ">Books</li>
+                        <li class="list-group-item w-100 border-0 text-center ">Authors</li>
+                        <li class="list-group-item border-0 text-center ">Subjects
+                        </li>
+                        <li class="list-group-item border-0 text-center ">Advanced Search</li>
+                    </ul>
+                    <ul class="col-12 col-lg-2 mx-auto list-group col-2 border-0">
+                        <li class="list-group-item border-0  text-center ">
+                            <h4 class="my-5 pt-3" style="font-family: 'Playfair', serif;">My Account</h4>
+                        </li>
+                        <li class="list-group-item border-0 text-center ">Sign In</li>
+                        <li class="list-group-item border-0 text-center ">View Cart</li>
+                        <li class="list-group-item border-0 text-center ">My Wishlist
+                        </li>
+                        <li class="list-group-item border-0 text-center ">Track My Order</li>
+                    </ul>
+                    <ul class="col-12 col-lg-2 mx-auto list-group col-2 border-0 ">
+                        <li class="list-group-item border-0 text-center ">
+                            <h4 class="my-5 pt-3" style="font-family: 'Playfair', serif;">Help</h4>
+                        </li>
+                        <li class="list-group-item border-0 text-center ">Help center</li>
+                        <li class="list-group-item border-0 text-center ">Report a problem</li>
+                        <li class="list-group-item border-0 text-center ">Suggesting edits</li>
+                        <li class="list-group-item border-0 text-center ">Contact us</li>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-between flex-wrap">
+                    <p class="pt-5 text-secondary text-center">&copy;2024 All rights reserved by Tony.Free HTML
+                        Template by <a class="text-decoration-none" style="color:#aa8151;" href="#">TempletesJungle</a>
+                    </p>
+                    <div class="links d-flex align-items-center  mt-5 justify-content-end">
+                        <a href="https://www.facebook.com/profile.php?id=100086456822511&mibextid=ZbWKwL" class="me-3">
+                            <i class="fab fa-facebook text-dark"></i>
+                        </a>
+                        <a href="#" class="me-3">
+                            <i class="fab fa-twitter text-dark"></i></a>
+                        <a href="#" class="me-3">
+                            <i class="fab fa-youtube text-dark"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-behance text-dark"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- My Script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
